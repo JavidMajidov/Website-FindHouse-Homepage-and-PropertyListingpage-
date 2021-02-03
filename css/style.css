@@ -1,0 +1,976 @@
+/* ............................................
+...................Header......................
+............................................ */
+
+
+/*................ background img................ */
+.background {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 960px;
+}
+
+.background:before {
+  content: "";
+  background-color: rgb(29, 41, 62);
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 960px;
+}
+
+/*................Navbar icon................ */
+
+.findHouse {
+  color: white !important;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 10px;
+  padding-left: 15px;
+  text-transform: capitalize;
+  vertical-align: middle;
+}
+
+
+/*................Navbar menu................ */
+
+.nava {
+  color: white !important;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 15px;
+  padding-left: 20px !important;
+  text-transform: capitalize;
+  vertical-align: middle;
+}
+
+.navbar {
+  width: 98%;
+  margin: auto;
+}
+
+.flaticon-user {
+  color: white !important;
+  margin: 0 5px 0 0;
+}
+
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  background-color: white !important;
+  top: 0;
+  transition: 0.2s;
+  left: 0;
+  z-index: 99999;
+}
+
+.fixed .loro {
+  color: black !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fixed .flaticon-user {
+  color: black !important;
+  margin: 0 5px 0 0;
+}
+
+/*................Text................ */
+
+.home-text {
+  margin: 0 auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center !important;
+}
+
+.home-text {
+  margin-top: 320px;
+}
+
+
+
+.fz55 {
+  color: white !important;
+  margin-top: 0;
+  font-size: 49px;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif !important;
+  line-height: 1.2;
+  position: relative;
+}
+
+.fz18 {
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 600;
+  font-size: 16px;
+  color: white !important;
+  position: relative;
+}
+
+/*................Button................ */
+
+#pills-home-tab {
+  background-color: #FF5A5FFF !important;
+  border-color: #FF5A5FFF !important;
+  border-radius: 8px;
+  font-size: 16px;
+  height: 50px;
+  width: 110px;
+  text-align: center;
+  line-height: 35px;
+  color: white !important;
+  margin: 5px;
+}
+
+#pills-profile-tab {
+  background-color: #FF5A5FFF !important;
+  border-color: #FF5A5FFF !important;
+  border-radius: 8px;
+  font-size: 16px;
+  height: 50px;
+  width: 110px;
+  text-align: center;
+  line-height: 35px;
+  color: white !important;
+  margin: 5px;
+}
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: #000 !important;
+  background-color: white !important;
+  border-color: white !important;
+  border-radius: 8px;
+}
+
+
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 440px;
+}
+
+
+/*................Tab-Tool................ */
+
+header #find-your-dream .tab .tab-tool {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 8px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+
+header #find-your-dream .tab .tab-tool::before {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  bottom: -10px;
+  content: "";
+  left: -10px;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  z-index: -1;
+}
+
+header #find-your-dream .tab .tab-tool input,
+header #find-your-dream .tab .tab-tool select {
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #484848;
+  line-height: 1.2;
+  height: 50px;
+  padding: 0.375rem 0.75rem;
+  outline: none;
+  margin: 0 6px;
+}
+
+header #find-your-dream .tab .tab-tool input:nth-child(1) {
+  width: 215px;
+}
+
+header #find-your-dream .tab .tab-tool select {
+  width: 142px;
+}
+
+header #find-your-dream .tab .tab-tool input:nth-child(2) {
+  width: 190px;
+}
+
+header #find-your-dream .tab .tab-tool input:nth-child(3) {
+  width: 150px;
+}
+
+header #find-your-dream .tab .tab-tool span {
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  color: #484848;
+  line-height: 35px;
+  height: 50px;
+  padding: 0.375rem 0.75rem;
+  outline: none;
+  margin: 0 6px;
+  font-size: 14px;
+  margin: 0;
+  outline: none;
+  position: relative;
+  padding-left: 15px;
+}
+
+header #find-your-dream .tab .tab-tool i {
+  padding: 0 15px;
+}
+
+header #find-your-dream .tab .tab-tool button {
+  background-color: #ff5a5f;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.2;
+  height: 50px;
+  width: 170px;
+  border-radius: 8px;
+}
+
+/* ............................................
+.............Featured Properties...............
+............................................ */
+
+.featured-properties {
+  background-color: #F7F7F7FF !important;
+}
+
+.featured {
+  height: 620px;
+}
+
+.offset-lg-3 {
+  margin-left: 25%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.feat {
+  color: #484848 !important;
+
+  line-height: 1.2;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.hand {
+  font-size: 16px;
+  color: rgb(119, 119, 119) !important;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+/*................Featured Carusel................ */
+
+.owl-carousel::after,
+::before {
+  box-sizing: border-box !important;
+}
+
+.owl-item {
+  width: 330px !important;
+}
+
+.owl-nav {
+  display: none;
+}
+
+.sas {
+  background-color: #ffffff !important;
+  border: 1px solid #ebebeb !important;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.fp1 {
+  background-color: #1d293e !important;
+  border-radius: 8px;
+  display: flex;
+  overflow: hidden;
+  margin: 10px 10px 0 10px;
+  position: relative;
+}
+
+#fp {
+  opacity: .6 !important;
+  object-fit: cover;
+}
+
+.forr {
+  background-color: rgb(62, 76, 102);
+  border-radius: 3px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  width: 75px;
+}
+
+.for {
+  font-size: 14px;
+  color: white !important;
+  line-height: 1.2;
+  text-decoration: none !important;
+}
+
+.foee {
+  background-color: rgb(238, 4, 4);
+  border-radius: 3px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  width: 75px;
+}
+
+.foe {
+  font-size: 14px;
+  color: white !important;
+  line-height: 1.2;
+  text-decoration: none !important;
+}
+
+.tag {
+  margin-top: -186px;
+  position: relative;
+}
+
+.icon {
+  position: relative;
+  right: 0px;
+  margin-top: 118px !important;
+  margin-left: 173px !important;
+}
+
+.flaticon {
+  border-radius: 8px;
+  background-color: rgb(15, 21, 31);
+  height: 35px;
+  line-height: 35px;
+  margin-right: 5px;
+  opacity: 0.502;
+  text-align: center;
+  width: 35px;
+}
+
+.flaticon-transfer-1 {
+  color: #ffffff !important;
+}
+
+.flaticon-heart {
+  color: #ffffff !important;
+}
+
+.fp_price {
+  bottom: 46px;
+  font-size: 22px;
+  color: #ffffff !important;
+  font-weight: bold;
+  left: 29px;
+  line-height: 1.2;
+  position: relative;
+  text-decoration: none !important;
+}
+
+.text-thm {
+  font-size: 14px;
+  color: #484848;
+  line-height: 1.2;
+  color: #ff5a5f !important;
+  margin: -38px 0 10px !important;
+}
+
+.nov {
+  font-size: 18px;
+  color: #484848;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.place {
+  font-size: 14px !important;
+  color: #484848 !important;
+  line-height: 1.2 !important;
+  margin: 0 0 2px !important;
+}
+
+.li {
+  font-size: 14px !important;
+  color: #484848 !important;
+  line-height: 1.2 !important;
+  position: relative;
+  left: -38px !important;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.247);
+}
+
+
+/* ............................................
+....................Cities.....................
+............................................ */
+
+.cities {
+  height: 880px;
+}
+
+.city {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* ....................Text....................... */
+
+#find {
+  color: #484848 !important;
+  line-height: 1.2 !important;
+  margin-bottom: 10px !important;
+  margin-top: 0 !important;
+  font-weight: bold;
+}
+
+#lor {
+  font-size: 16px;
+  color: rgb(119, 119, 119) !important;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+
+/*................citi foto................ */
+
+.col-lg-4,
+.col-lg-8 {
+  margin: 0 0 30px;
+  position: relative;
+}
+
+
+.detail {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(29, 41, 62, 1) 100%);
+  border-radius: 0px 0px 10px 10px;
+  bottom: 0;
+  height: 230px;
+  left: 16px;
+  position: absolute;
+  right: 16px;
+  text-align: center;
+}
+
+.tt {
+  margin-top: 170px;
+}
+
+#miami {
+  color: #ffffff !important;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+#prop {
+  font-size: 14px;
+  color: #ffffff !important;
+  line-height: 1.2;
+}
+
+.cil {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-fluid:hover {
+  transform: rotate(-2deg) scale(1.1);
+  transition: all 0.6s ease !important;
+}
+
+
+/* ............................................
+..................why choose us...............
+............................................ */
+
+
+.choose_us {
+  height: 600px;
+  background-color: #F7F7F7FF;
+}
+
+
+/* ....................Text....................... */
+
+
+.main-title {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+#why {
+  color: #484848 !important;
+  line-height: 1.2 !important;
+  margin-bottom: 10px !important;
+  margin-top: 0 !important;
+  font-size: 30px !important;
+  font-weight: bold !important;
+}
+
+
+#we {
+  font-size: 16px;
+  color: rgb(119, 119, 119) !important;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+
+
+/* ....................Card....................... */
+
+.why_chose_us {
+  background-color: #ffffff !important;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  padding: 50px 41px 30px 41px;
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.why_chose_us:hover {
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.247);
+}
+
+.why_chose_us .icon {
+  background-color: #ffe8e9 !important;
+  border-radius: 50%;
+  height: 130px;
+  line-height: 130px;
+  margin: 0 0 0 70px !important;
+  width: 130px;
+  transition: all 0.3s ease;
+}
+
+.why_chose_us .icon:hover {
+  background-color: #ff5a5f !important;
+  border-radius: 50%;
+  height: 130px;
+  line-height: 130px;
+  margin: 0 0 0 70px !important;
+  width: 130px;
+}
+
+
+.why_chose_us .icon span {
+  color: #ff5a5f !important;
+  font-size: 68px;
+  line-height: 130px;
+  transition: all 0.2s ease;
+}
+
+.why_chose_us .icon span:hover {
+  color: white !important;
+  font-size: 68px;
+  line-height: 130px;
+}
+
+
+.why_chose_us .details {
+  margin-top: 50px;
+}
+
+.why_chose_us .details h4 {
+  color: #484848;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.why_chose_us .details p {
+  font-size: 14px;
+  line-height: 1.714;
+  color: #484848 !important;
+}
+
+/* ............................................
+................Testimonials................
+............................................ */
+
+.our-testimo {
+  background-image: url('../img/2.jpg');
+  background-size: cover;
+  background-position: right right;
+  height: 450px;
+
+}
+
+/* ....................Text....................... */
+
+.text-center {
+  color: #ffffff !important;
+}
+
+.testi {
+  color: #ffffff !important;
+  line-height: 1.2 !important;
+  margin-bottom: 10px !important;
+  margin-top: 0 !important;
+}
+
+.here {
+  font-size: 16px !important;
+  color: #ffffff !important;
+  line-height: 1.2 !important;
+  margin-bottom: 0 !important;
+}
+
+/*................Testimonials Carusel................ */
+
+
+.lala {
+  border-radius: 50%;
+  background-size: cover;
+  background-position: right right;
+  height: 264px;
+  width: 264px;
+  transform: scale(0.4);
+  border-style: solid !important;
+  border-color: rgba(97, 95, 95, 0.5) !important;
+  border-width: 15px;
+  margin: -60px 0 0 125px !important;
+}
+
+
+.arm {
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0) !important;
+  border: 1px solid rgba(255, 255, 255, 0) !important;
+}
+
+.arm:hover {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
+}
+
+.card-img-top {
+  opacity: 1 !important;
+  object-fit: cover;
+}
+
+.mb-2 {
+  margin-bottom: -60px !important;
+}
+
+.sil {
+  margin: -90px 0 100px 195px;
+}
+
+.august {
+  color: #ffffff;
+  margin: 0 0 39px -2px;
+  font-size: 17px;
+  line-height: 1.2;
+
+}
+
+.mt24 {
+  color: #ffffff !important;
+  margin: -35px 0 40px 6px;
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.mt25 {
+  font-size: 14px;
+  color: #ffffff !important;
+  line-height: 1.429;
+  margin: 0 0 0 -150px;
+  text-align: center;
+}
+
+
+
+/* ............................................
+..................Articles.....................
+............................................ */
+
+.our-blog {
+  background-color: #F7F7F7FF !important;
+  height: 600px;
+}
+
+/* ....................Text....................... */
+
+#arti {
+  color: #484848 !important;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#dol {
+  font-size: 16px;
+  color: rgb(119, 119, 119) !important;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+
+/* ....................Card....................... */
+
+.apar {
+  font-size: 17px;
+  color: #484848 !important;
+  line-height: 1.2;
+}
+
+.bir {
+  margin: 0 35px 8px 0;
+}
+
+
+/* ............................................
+..................Partners.....................
+............................................ */
+
+
+.our-partners {
+  background-color: white !important;
+  height: 300px;
+}
+
+
+/* ....................Icon....................... */
+
+.ico {
+  margin-left: 70px;
+}
+
+
+/* ............................................
+..................Partners.....................
+............................................ */
+
+
+.start-partners {
+  background-color: #FF5A5FFF !important;
+  height: 150px;
+}
+
+/* ....................Text....................... */
+
+#bec {
+  color: #ffffff !important;
+  line-height: 1.2;
+  font-size: 30px;
+  margin: 0 0 0 50px !important;
+}
+
+#onl {
+  color: #ffffff !important;
+  margin-bottom: 0;
+  line-height: 1.2;
+  font-size: 14px;
+  margin: 0 0 0 50px !important;
+}
+
+.start_partner {
+  margin-top: 50px;
+}
+
+/* ....................BTN....................... */
+
+.btn-light {
+  border-radius: 8px;
+  background-color: rgb(255, 120, 124);
+  border-color: rgb(255, 120, 124) !important;
+  box-shadow: 0px 1px 4px 0px rgba(255, 90, 95, 0.3);
+  height: 60px;
+  line-height: 50px;
+  width: 170px;
+  transition: all 0.3s ease;
+  color: white !important;
+  margin: 50px 50px 0 0 !important;
+}
+
+.btn-light:hover {
+  content: "";
+  color: #FF5A5FFF !important;
+  background-color: white !important;
+}
+
+
+/* ............................................
+....................Arrow......................
+............................................ */
+
+#button {
+  border-radius: 50%;
+  background-color: #141e2f;
+  bottom: 15px;
+  color: #8a99b3 !important;
+  display: none;
+  font-size: 14px;
+  height: 45px;
+  line-height: 40px;
+  padding: 3px 10px;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  width: 45px;
+  z-index: 99999;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none !important;
+}
+
+/* ............................................
+....................Footer 1...................
+............................................ */
+
+.footer_1 {
+  height: 350px !important;
+  background-color: #24324AFF !important;
+  padding: 80px 0 70px;
+}
+
+/* ....................Text....................... */
+
+
+
+.quick {
+  color: #ffffff !important;
+  font-weight: bold;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+.qui {
+  font-size: 13px;
+  color: #8a99b3 !important;
+  line-height: 1.8;
+}
+
+.a {
+  font-size: 14px;
+  color: #8a99b3 !important;
+  line-height: 2.429;
+  transition: all 0.3s ease 0s;
+  text-decoration: none !important;
+}
+
+.a:hover {
+  margin-left: 7px;
+  color: white !important;
+}
+
+.twit {
+  color: #8a99b3 !important;
+  font-size: 13px;
+  font-family: "FontAwesome";
+  line-height: 1.2;
+  transition: all 0.3s ease 0s;
+}
+
+.twit:hover {
+  color: white !important;
+}
+
+.mb30 {
+  margin-left: -40px;
+}
+
+
+.footer_qlink_widget {
+  padding-left: 70px;
+}
+
+.twi {
+  margin-right: 1rem !important;
+}
+
+/* ................Your email................... */
+
+.form-control {
+  background-color: #354765 !important;
+  border: 1px solid #354765 !important;
+  border-radius: 25px;
+  color: #ffffff !important;
+  height: 45px;
+  padding-left: 30px;
+  width: 195px;
+}
+
+.my {
+  background-color: #354765;
+  border: 1px solid #354765;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+}
+
+/* ............................................
+....................Footer 2...................
+............................................ */
+
+.footer_2 {
+  height: 100px !important;
+  background-color: #1D293EFF !important;
+}
+
+/* ....................Text....................... */
+
+.footer_2_menu {
+  padding: 30px 0 0;
+}
+
+.blog {
+  margin-right: 0 !important;
+  padding-right: 25px;
+  vertical-align: middle;
+}
+
+#list-inline-item {
+  font-size: 14px;
+  color: #8a99b3 !important;
+  line-height: 2.143;
+  text-decoration: none;
+}
+
+#list-inline-item:hover {
+  color: white !important;
+}
+
+#made {
+  font-size: 14px;
+  color: #8a99b3 !important;
+  line-height: 2.143;
+  margin-right: 50px;
+}

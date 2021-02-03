@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindHouse - Property listing</title>
+    <link
+    rel="shortcut icon" href="../img/header-logo-2.png" type="image/header-logo-2">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  
+    <script src="https://kit.fontawesome.com/55ba82b804.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="../css/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="../css/assets/modal.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/Flaticon.css">
+  </head>
+  <body>
+
+
+    <!-- Header start -->
+    <header
+       role="banner">
+      <!-- Nav start -->
+      <section id="naw">
+        <nav class="navbar navbar-expand-lg main-nav bg-white">
+          <div class="mmm">
+            <img src="../img/header-logo-2.png" alt="header-logo-2">
+            <a class="findHouse navbar-brand loro"  href="#">FindHouse</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nava nav-link loro" href="file:///C:/Users/user/Desktop/code%20academy/Projekct-1/index.html#0">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nava  nav-link dropdown-toggle loro" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Property
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item loro" href="#">Listing</a>
+                  <a class="dropdown-item loro" href="#">Detail</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nava nav-link dropdown-toggle loro" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Agents
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item  loro" href="#">Listing</a>
+                  <a class="dropdown-item loro" href="#">Detail</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nava nav-link loro" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nava nav-link loro" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nava nav-link loro cd-signup" href="#0"><span class="flaticon-user"></span>Login/Register</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+      
+      </section>
+      <!-- Nav end -->
+
+      </header>
+      <!-- Header stop -->
+
+      <!-- main start -->
+      <main>
+       <!-- section start  -->
+
+       <section class="our-listing bgc-f7 pb30-991 main" id="Simple-listing">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="breadcrumb_content style2 mt30-767 mb30-767">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="home" href="#">Home</a></li>
+                    <li class="breadcrumb-item active tet-thm" aria-current="page">Property – Listing</li>
+                </ol>
+                <h2 class="breadcrumb_title">Property – Listing</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 side-bar-main">
+              <div class="side-bar">
+                  <input type="text" name="" placeholder="Keyword">
+                  <input type="text" name="" placeholder="Location">
+                  <select name="" id="" class="d-block">
+                      <option value="">Status</option>
+                      <option value="">Apartment</option>
+                      <option value="">House</option>
+                      <option value="">Land</option>
+                  </select>
+                  <select name="" id="" class="d-block">
+                      <option value="">Property type</option>
+                      <option value="">Apartment</option>
+                      <option value="">House</option>
+                      <option value="">Land</option>
+                  </select>
+                  <input type="text" name="" placeholder="Price">
+                  <select name="" id="" class="d-block">
+                      <option value="">Bathroom</option>
+                      <option value="">1</option>
+                      <option value="">2</option>
+                      <option value="">3</option>
+                  </select>
+
+                  <select name="" id="" class="d-block">
+                      <option value="">Garages</option>
+                      <option value="">Yes</option>
+                      <option value="">No</option>
+                      <option value="">Others</option>
+                  </select>
+
+                  <select name="" id="" class="d-block">
+                      <option value="">Year Build</option>
+                      <option value="">2020</option>
+                      <option value="">2019</option>
+                      <option value="">2018</option>
+                      <option value="">2017</option>
+                      <option value="">2016</option>
+                  </select>
+
+                  <input type="text" placeholder="Min Area">
+                  <input type="text" placeholder="Max Area">
+                  <button type="button" class="btn btn-lg btn-block">Search</button>
+
+              </div>
+          </div> 
+            <div class="col-md-12 col-lg-8">
+              <div class="row">
+                <div class="grid_list_search_result">
+                  <div class="col-sm-12 col-md-4 col-lg-4 col-xl-5">
+                    <div class="left_area tac-xsd">
+                      <p class="tc-xsd">9 Search results</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+               <div class="row">
+
+                <div class="col-md-6 col-lg-6">
+                  <div type="button" class="item">
+                    <div class="card sas">
+                      <div class="fp1">
+                        <img src="../img/fp1.jpg" class="card-img-top" id="fp" alt="fp1.jpg">
+                      </div>
+                      <div class="thmb_cntnt">
+                        <ul class="tag">
+                          <li class="list-inline-item forr">
+                            <a href="#" class="for">For Rent</a>
+                          </li>
+                          <li class="list-inline-item  foee">
+                            <a href="#" class="foe">Featured</a>
+                          </li>
+                        </ul>
+                        <ul class="icon mb0">
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-transfer-1"></span>
+                            </a>
+                          </li>
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-heart"></span>
+                            </a>
+                          </li>
+                        </ul>
+                        <a class="fp_price" href="#">$13,000<small>/mo</small>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <div class="details">
+                          <div class="tc_content">
+                            <p class="text-thm">Apartment</p>
+                            <h4 class="nov">Renovated Apartment</h4>
+                            <p class="place">
+                              <span class="flaticon-placeholder place"></span>
+                              1421 San Pedro St, Los Angeles, CA 90015</p>
+                            <ul class="prop_details mb0">
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Beds: 4</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Baths: 2</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Sq Ft: 5280</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div type="button" class="item">
+                    <div class="card sas">
+                      <div class="fp1">
+                        <img src="../img/fp2.jpg" class="card-img-top" id="fp" alt="fp2.jpg">
+                      </div>
+                      <div class="thmb_cntnt">
+                        <ul class="tag">
+                          <li class="list-inline-item forr">
+                            <a href="#" class="for">For Rent</a>
+                          </li>
+                      
+                        </ul>
+                        <ul class="icon mb0">
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-transfer-1"></span>
+                            </a>
+                          </li>
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-heart"></span>
+                            </a>
+                          </li>
+                        </ul>
+                        <a class="fp_price" href="#">$13,000<small>/mo</small>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <div class="details">
+                          <div class="tc_content">
+                            <p class="text-thm">Villa</p>
+                            <h4 class="nov">Gorgeous Villa Bay View</h4>
+                            <p class="place">
+                              <span class="flaticon-placeholder place"></span>
+                              1421 San Pedro St, Los Angeles, CA 90015</p>
+                            <ul class="prop_details mb0">
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Beds: 4</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Baths: 2</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Sq Ft: 5280</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div type="button" class="item">
+                    <div class="card sas">
+                      <div class="fp1">
+                        <img src="../img/fp3.jpg" class="card-img-top" id="fp" alt="fp3.jpg">
+                      </div>
+                      <div class="thmb_cntnt">
+                        <ul class="tag">
+                          <li class="list-inline-item forr">
+                            <a href="#" class="for">For Rent</a>
+                          </li>
+                      
+                        </ul>
+                        <ul class="icon mb0">
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-transfer-1"></span>
+                            </a>
+                          </li>
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-heart"></span>
+                            </a>
+                          </li>
+                        </ul>
+                        <a class="fp_price" href="#">$13,000<small>/mo</small>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <div class="details">
+                          <div class="tc_content">
+                            <p class="text-thm">Single Family Home</p>
+                            <h4 class="nov">Luxury Family Home</h4>
+                            <p class="place">
+                              <span class="flaticon-placeholder place"></span>
+                              1421 San Pedro St, Los Angeles, CA 90015</p>
+                            <ul class="prop_details mb0">
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Beds: 4</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Baths: 2</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Sq Ft: 5280</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div type="button" class="item">
+                    <div class="card sas">
+                      <div class="fp1">
+                        <img src="img/fp4.jpg" class="card-img-top" id="fp" alt="fp4.jpg">
+                      </div>
+                      <div class="thmb_cntnt">
+                        <ul class="tag">
+                          <li class="list-inline-item forr">
+                            <a href="#" class="for">For Rent</a>
+                          </li>
+                          <li class="list-inline-item  foee">
+                            <a href="#" class="foe">Featured</a>
+                          </li>
+                      
+                        </ul>
+                        <ul class="icon mb0">
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-transfer-1"></span>
+                            </a>
+                          </li>
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-heart"></span>
+                            </a>
+                          </li>
+                        </ul>
+                        <a class="fp_price" href="#">$13,000<small>/mo</small>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <div class="details">
+                          <div class="tc_content">
+                            <p class="text-thm">Apartment</p>
+                            <h4 class="nov">Luxury Family Home</h4>
+                            <p class="place">
+                              <span class="flaticon-placeholder place"></span>
+                              1421 San Pedro St, Los Angeles, CA 90015</p>
+                            <ul class="prop_details mb0">
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Beds: 4</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Baths: 2</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Sq Ft: 5280</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div type="button" class="item">
+                    <div class="card sas">
+                      <div class="fp1">
+                        <img src="img/fp15.jpg" class="card-img-top" id="fp" alt="fp15.jpg">
+                      </div>
+                      <div class="thmb_cntnt">
+                        <ul class="tag">
+                          <li class="list-inline-item forr">
+                            <a href="#" class="for">For Rent</a>
+                          </li>
+                          <li class="list-inline-item  foee">
+                            <a href="#" class="foe">Featured</a>
+                          </li>
+                      
+                        </ul>
+                        <ul class="icon mb0">
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-transfer-1"></span>
+                            </a>
+                          </li>
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-heart"></span>
+                            </a>
+                          </li>
+                        </ul>
+                        <a class="fp_price" href="#">$13,000<small>/mo</small>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <div class="details">
+                          <div class="tc_content">
+                            <p class="text-thm">Apartment</p>
+                            <h4 class="nov">Renovated Apartment</h4>
+                            <p class="place">
+                              <span class="flaticon-placeholder place"></span>
+                              1421 San Pedro St, Los Angeles, CA 90015</p>
+                            <ul class="prop_details mb0">
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Beds: 4</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Baths: 2</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Sq Ft: 5280</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div type="button" class="item">
+                    <div class="card sas">
+                      <div class="fp1">
+                        <img src="img/fp16.jpg" class="card-img-top" id="fp" alt="fp16.jpg">
+                      </div>
+                      <div class="thmb_cntnt">
+                        <ul class="tag">
+                          <li class="list-inline-item forr">
+                            <a href="#" class="for">For Rent</a>
+                          </li>
+                      
+                        </ul>
+                        <ul class="icon mb0">
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-transfer-1"></span>
+                            </a>
+                          </li>
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-heart"></span>
+                            </a>
+                          </li>
+                        </ul>
+                        <a class="fp_price" href="#">$13,000<small>/mo</small>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <div class="details">
+                          <div class="tc_content">
+                            <p class="text-thm">Villa</p>
+                            <h4 class="nov">Gorgeous Villa Bay View</h4>
+                            <p class="place">
+                              <span class="flaticon-placeholder place"></span>
+                              1421 San Pedro St, Los Angeles, CA 90015</p>
+                            <ul class="prop_details mb0">
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Beds: 4</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Baths: 2</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Sq Ft: 5280</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12 mt20">
+                  <div class="mbp_pagination">
+                    <ul class="page_navigation">
+                        <li class="page-item disabled">
+                          <a class="page-link" href="#" tabindex="-1" aria-disabled="true"> <span class="flaticon-left-arrow"></span> Prev</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item active" aria-current="page">
+                          <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">...</a></li>
+                        <li class="page-item"><a class="page-link" href="#">29</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#"><span class="flaticon-right-arrow"></span></a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>  
+
+              </div> 
+            </div>
+          </div>
+        </div>
+      </section>
+       <!-- section end -->
+
+      </main>
+      <!-- main stop -->
+
+      <!-- Footer start -->
+      <footer>
+        <!-- footer 1 start -->
+        <section class="footer_1">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 pr0 pl0">
+                <div class="footer_about_widget">
+                  <h4 class="quick">About Site</h4>
+                  <p class="qui">We’re reimagining how you buy, sell and rent. It’s now easier to get into a place you love. So let’s do this, together.</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <div class="footer_qlink_widget">
+                  <h4 class="quick">Quick Links</h4>
+                  <ul class="list-unstyled">
+                    <li><a class="a" href="#">About Us</a></li>
+                    <li><a class="a" href="#">Terms &amp; Conditions</a></li>
+                    <li><a class="a" href="#">User’s Guide</a></li>
+                    <li><a class="a" href="#">Support Center</a></li>
+                    <li><a class="a" href="#">Press Info</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <div class="footer_contact_widget">
+                  <h4 class="quick">Contact Us</h4>
+                  <ul class="list-unstyled">
+                    <li><a class="a" href="#">info@findhouse.com</a></li>
+                    <li><a class="a" href="#">Collins Street West, Victoria</a></li>
+                    <li><a class="a" href="#">8007, Australia.</a></li>
+                    <li><a class="a" href="#">+1 246-345-0699</a></li>
+                    <li><a class="a" href="#">+1 246-345-0695</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                <div class="footer_social_widget">
+                  <h4 class="quick">Follow us</h4>
+                  <ul class="mb30">
+                    <li class="list-inline-item twi"><a class="twit" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item twi"><a class="twit" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item twi"><a class="twit" href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item twi"><a class="twit" href="#"><i class="fa fa-pinterest"></i></a></li>
+                    <li class="list-inline-item twi"><a class="twit" href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li class="list-inline-item twi"><a class="twit" href="#"><i class="fa fa-google"></i></a></li>
+                  </ul>
+                  <h4 class="quick">Subscribe</h4>
+                  <form class="footer_mailchimp_form">
+                     <div class="form-row align-items-center">
+                        <div class="col-auto">
+                          <input type="email" class="form-control mb-3" id="inlineFormInput" placeholder="Your email">
+                        </div>
+                        <div class="col-auto">
+                          <button type="submit" class="btn my btn-primary mb-3"><i class="fa fa-angle-right"></i></button>
+                        </div>
+                      </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- footer 1 end -->
+
+        <!-- footer 2 start -->
+        <section class="footer_2">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-xl-6">
+                <div class="footer_2_menu">
+                  <ul>
+                    <li class="list-inline-item blog"><a id="list-inline-item" href="#">Home</a></li>
+                    <li class="list-inline-item blog"><a id="list-inline-item" href="#">Listing</a></li>
+                    <li class="list-inline-item blog"><a id="list-inline-item" href="#">Property</a></li>
+                    <li class="list-inline-item blog"><a id="list-inline-item" href="#">Pages</a></li>
+                    <li class="list-inline-item blog"><a id="list-inline-item" href="#">Blog</a></li>
+                    <li class="list-inline-item blog"><a id="list-inline-item" href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-6 col-xl-6">
+                <div class="footer_2_menu text-right">
+                  <p id="made">© 2020 Find House. Made with love.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- footer 2 end -->
+
+
+        <!-- Arrow start -->
+        <a class="scrollToHome" id="button" href="#" style="display: inline;">
+          <i class="flaticon-arrows">
+          </i>
+        </a>
+        <!-- Arrow end -->
+      </footer>
+      <!-- Futter end -->
+
+
+
+
+      <!-- modal reqistred start -->
+      <div class="cd-user-modal"> 
+        <div class="cd-user-modal-container"> 
+          <ul class="cd-switcher sign_up_tab nav myNav-tabs">
+            <li class="myNav-item">
+              <a class="myNav-link active" id="home-tab" data-toggle="tab" href="#0" role="tab" aria-controls="home" aria-selected="true">Login</a>
+            </li>
+            <li class="myNav-item">
+              <a class="myNav-link" id="profile-tab" data-toggle="tab" href="#0" role="tab" aria-controls="profile" aria-selected="false">Register</a>
+            </li>
+          </ul>
+    
+          
+          <div id="cd-login"> 
+            <form class="cd-form">
+              <div class="container">
+                <div class="row" id="cd-login" role="tabpanel" aria-labelledby="home-tab">
+                  <div class="col-lg-6 col-xl-6 mt-4" class="item-tall">
+					  		  	<div class="login_thumb">
+					  			  	<img class="myImg-fluid w100" src="../img/login.jpg" alt="login.jpg">
+					  			  </div>
+                  </div>
+
+                  <div class="col-lg-6 col-xl-6 mt-4">
+                    <div class="login_form">
+                      <form action="#">
+
+                        <div class="heading">
+                          <h4 class="gin">Login</h4>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <button type="submit" class="btn btn-fb btn-block"><i class="fa fa-facebook float-left mt5"></i> Login with Facebook</button>
+                          </div>
+                          <div class="col-lg-12">
+                            <button type="submit" class="btn btn-googl btn-block"><i class="fa fa-google float-left mt5"></i> Login with Google</button>
+                          </div>
+                        </div>
+
+                        <hr class="or"></hr>
+                        <div class="input-group  mr-sm-2">
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="User Name Or Email">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text"><i class="flaticon-user" style="color: #006c70 !important;"></i></div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="input-group form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text"><i class="flaticon-password"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="form-group custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="exampleCheck1">
+                          <label class="custom-control-label" for="exampleCheck1">Remember me</label>
+                          <a class="btn-fpswd float-right" href="#">Lost your password?</a>
+                        </div>
+                        <button type="submit" class="btn btn-log btn-block btn-thm">Log In</button>
+                        <p class="acc">Don't have an account? <a class="text-thm" href="#">Register</a></p>
+                      </form>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </form>  
+          </div>
+            
+
+    
+          <div id="cd-signup"> 
+            <form class="cd-form">
+              <div class="container">
+                <div class="row" id="cd-login" role="tabpanel" aria-labelledby="home-tab">
+                  <div class="col-lg-6 col-xl-6 mt-4" class="item-tall">
+					  		  	<div class="login_thumb">
+					  			  	<img class="myImg-fluid w100" src="../img/regstr.jpg" alt="regstr.jpg">
+					  			  </div>
+                  </div>
+
+                  <div class="col-lg-6 col-xl-6 mt-4">
+                    <div class="login_form">
+                      <form action="#">
+
+                        <div class="heading">
+                          <h4 class="gin">Register</h4>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <button type="submit" class="btn btn-fb btn-block"><i class="fa fa-facebook float-left mt5"></i> Login with Facebook</button>
+                          </div>
+                          <div class="col-lg-12">
+                            <button type="submit" class="btn btn-googl btn-block"><i class="fa fa-google float-left mt5"></i> Login with Google</button>
+                          </div>
+                        </div>
+
+                        <hr class="or"></hr>
+
+                        <div class="input-group  mr-sm-2">
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="User Name">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text"><i class="flaticon-user" style="color: #006c70 !important;"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="input-group  mr-sm-2">
+                          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                          <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-envelope-o" style="color: #006c70 !important;"></i></div>
+                          </div>
+                        </div>
+                        
+
+                        <div class="input-group form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text"><i class="flaticon-password"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="input-group form-group">
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Re-enter password">
+                          <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="flaticon-password"></i></div>
+                          </div>
+                        </div>
+
+                          
+                        <div class="form-group ui_kit_select_search mb0">
+                          <div  class="dropdown bootstrap-select" style="width: 100%;">
+                            <select class="selectpicker" data-live-search="true" data-width="100%" tabindex="-98">
+                              <option data-tokens="SelectRole">Single User</option>
+                              <option data-tokens="Agent/Agency">Agent</option>
+                              <option data-tokens="SingleUser">Multi User</option>
+                            </select>
+                          </div> 
+                        </div>
+
+
+
+                        <div class="form-group custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="exampleCheck1">
+                          <label class="custom-control-label" for="exampleCheck1">I have read and accept the Terms and Privacy Policy?</label> 
+                        </div>
+                        <button type="submit" class="btn btn-log btn-block btn-thm">Sign Up</button>
+                        <p class="acc">Already have an account?<a class="text-thm" href="#"> Log In</a></p>
+                      </form>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </form>
+          </div> 
+    
+        </div> 
+      </div> 
+      <!-- modal reqistred end -->
+
+      
+
+     
+      <script src="../js/plugins/jQuery(1.11.0).js"></script>
+      <!-- JS, Popper.js, and jQuery -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+      <script src="../js/plugins/owl.carousel.min.js"></script>
+      <script src="../js/plugins/yashillashdir.js"></script>
+      <script src="../js/main.js"></script> 
+    </body>
+  </body>
+</html>
